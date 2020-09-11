@@ -1,0 +1,53 @@
+@CHARSET "ISO-8859-1";
+body {
+	background: url('../img/wallpaperCJM.jpeg') no-repeat center center fixed !important;
+    background-size: cover !important;
+}
+
+.btnLogin {
+	background: #ff9100;
+	color: #fff;
+	transition: .9s;
+}
+
+#extr-page #main {
+    padding-top: 70px !important;
+}
+
+#header {
+	background: none !important;
+}
+
+/* header {
+	background: #ffffff !important;
+	text-align: center;
+} */
+
+.trans {
+	opacity: 1;
+}
+
+.footer {
+   position:fixed;
+   left: 0px;
+   bottom: 0px;
+   height: 100px;
+   width: 100%;
+   background-color: rgba(0, 0, 0, .9);
+}
+
+.footerPharagraph {
+	margin-top: 25px !important;
+	color: #fff;
+}
+
+a {	
+	transition: .9s; 
+}
+
+a { color: white; }
+a:HOVER { color: #FE9608 }
+
+.image { 
+	margin-top: 7px !important; 
+	}

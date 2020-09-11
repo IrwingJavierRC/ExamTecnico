@@ -1,0 +1,197 @@
+/*
+* Estilos usados para modificar el color de la selecci�n de una fila de la tabla
+*/
+table.dataTable tr.selected.odd, table.dataTable tr.selected.odd td.sorting_1,
+	table.dataTable tr.selected.odd td.sorting_2, table.dataTable tr.selected.odd td.sorting_3
+	{
+	background-color: #ffbd66 !important;
+}
+
+table.dataTable tr.selected.even, table.dataTable tr.selected.even td.sorting_1,
+	table.dataTable tr.selected.even td.sorting_2, table.dataTable tr.selected.even td.sorting_3
+	{
+	background-color: #ffbd66 !important;
+}
+
+/*
+* Estilo usado para el mensaje de procesamiento de informaci�n de las tablas
+*/
+.dataTables_wrapper .dataTables_processing {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	width: 30%;
+	height: 60px;
+	margin-left: -20%;
+	margin-top: -25px;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 1.2em;
+	background: none;
+}
+
+/*
+* Estilo para que el color del background se mantenga tarnsparente
+*/
+.smart-style-5 table.has-columns-hidden>tbody>tr.row-detail>td {
+	background: none;
+}
+
+body.smart-style-6 .jarviswidget>header {
+	/* border-bottom: 0; */
+	
+}
+
+.smart-form .input input, .smart-form .select select {
+	padding: 5px 10px;
+}
+
+textarea {
+	padding: 5px 10px !important;
+	-webkit-box-sizing: border-box !important;
+	box-sizing: border-box;
+	border:2px solid #ccc !important;
+}
+
+#cliente-context, .cliente-context {
+	display: inline-block;
+	padding: 7px 13px 0;
+	position: relative
+}
+
+#cliente-context>span, .cliente-context>span {
+	display: block
+}
+
+#cliente-context>:first-child, .cliente-context>:first-child {
+	display: block;
+	color: #bfbfbf;
+	font-size: 10px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-shadow: 0 0 1px #fff;
+	padding-left: 0;
+	text-align: left
+}
+
+/*
+* Colores nuevos
+*/
+.txt-color-ite-blue {
+	color: #003499 !important
+}
+
+.txt-color-ite-orange {
+	color: #ff9100 !important
+}
+
+.txt-color-ite-gray {
+	color: #93949a !important
+}
+
+.divCenter {
+	text-align: center;
+}
+
+/* centrar paginador */
+.dataTables_paginate {
+	float: none !important;
+	text-align: center !important;
+}
+
+/* menos padding en los row de los datatables */
+.table>tbody>tr>td {
+	padding: 10px 10px !important;
+}
+
+/* padding dentro del input de codigo postal */
+.select2-container .select2-choice, .select2-selection {
+	padding: 0 4px !important;
+}
+
+.smart-form .select2 ::after, .smart-form .select2 ::before {
+	/*padding: 4px;*/ /* se comenta porque afecta a la alineacion del la flechita del select2*/ 
+}
+
+/* padding en los input de los filtros */
+.hasinput .form-control {
+	padding: 0px 5px !important;
+}
+
+/* padding en los input de los filtros */
+.input .hasDatepicker {
+	padding: 0px 35px !important;
+	height: 30px;
+}
+
+/* padding en los input de los filtros */
+.hasDatepicker {
+	padding: 0px 15px !important;
+}
+
+/* no mostrar lineas negras en header y footer de los datatables */
+table.dataTable thead th, table.dataTable thead td {
+	border-bottom: 0px solid #111 !important;
+}
+
+table.dataTable.no-footer {
+	border-bottom: 0px solid #111 !important;
+}
+
+.iteTextDiv {
+	position: absolute !important;
+	left: 0px;
+	right: 0px;
+	bottom: 0px !important;
+	height: 100px;
+	z-index: 0;
+}
+
+.iteText {
+	text-align: right;
+	padding: 10px;
+	color: white;
+	font-family: impact;
+	text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000,
+		1px 1px 1px #000;
+}
+
+/* evitar que se desalinee el paginador*/
+div.dataTables_paginate ul.pagination {
+	white-space: inherit !important;
+}
+
+/* menos padding */
+.jarviswidget {
+	margin: 0 0 10px 0px !important;
+}
+
+/* menos padding */
+body.smart-style-6 #content>.row {
+	margin-bottom: 0px;
+}
+
+/*menos padding en fieldset*/
+.widget-body .smart-form fieldset {
+	padding: 15px 5px;
+}
+
+/*menos padding en legend*/
+.smart-form legend {
+	padding: inherit;
+}
+
+.has-success  .input input, .select select, .textarea textarea {
+	border-width: 0px;
+}
+
+/* no mostrar las opciones ya seleccionadas en la lista de disponibles de los select2*/
+.select2-results__option[aria-selected=true] {
+	display: none;
+}
+
+
+/* longitud minima para los select2, se usa para el autofiltro de los datatable*/
+.column-filter-widgets .select2-container {
+	min-width: 120px;
+}

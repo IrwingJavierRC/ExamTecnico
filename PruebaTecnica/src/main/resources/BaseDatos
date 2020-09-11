@@ -1,0 +1,10 @@
+Script para crear tabla.
+
+CREATE TABLE `SMART`.`ORGANIZACION` (
+  `IDEXTERNO` varchar(255) PRIMARY KEY NOT NULL,
+  `NOMBRE` varchar(255) NOT NULL,
+  `DIRECCION` varchar(255) NOT NULL,
+  `CODIGO` varchar(255) NOT NULL,
+  `TELEFONO` varchar(255) NOT NULL
+)
+
